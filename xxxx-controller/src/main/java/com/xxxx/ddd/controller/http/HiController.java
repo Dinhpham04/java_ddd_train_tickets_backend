@@ -1,7 +1,7 @@
-package com.xxxx.ddd.controller.resource;
+package com.xxxx.ddd.controller.http;
 
 
-import com.xxxx.ddd.applicaion.service.event.EventAppService;
+import com.xxxx.ddd.application.service.event.EventAppService;
 import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 import io.github.resilience4j.ratelimiter.annotation.RateLimiter;
 import org.springframework.beans.factory.annotation.Autowired;
